@@ -12,12 +12,14 @@
 
 /* general styles*/
 body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        /*general project styles*/
-        color: #3a3a3a
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*general project styles*/
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
+
 /*header*/
 header {
     background-color: lightcoral;
@@ -26,12 +28,12 @@ header {
 /*main*/
 main {
     background-color: lightblue;
-    flex: 1 0 auto; /* so the content dont shrink wen space is too small to take up all the content*/
+    flex: 1 0 auto;
+    /* so the content dont shrink wen space is too small to take up all the content*/
 
 }
 
 /*footer*/
 footer {
-    background-color:  orange;
+    background-color: orange;
 }
-
