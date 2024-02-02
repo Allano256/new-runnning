@@ -90,14 +90,24 @@ nav {
 
 /*main*/
 main {
-    background-color: lightblue;
+
     flex: 1 0 auto;
     /* so the content dont shrink wen space is too small to take up all the content*/
     margin-top: 47px;
 }
 
-/*footer*/
-#social-networks {
+/*hero section*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+
+
+}
+
+/* Footer*/
+*/ #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -106,10 +116,10 @@ main {
 }
 
 #social-networks i {
-         font-size: 160%;
-         padding: 5%;
-         color:#3a3a3a;
-         /*Here we make the social media icons bigger*/
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+    /*Here we make the social media icons bigger*/
 }
 
 /* Media querry: tablets and larger (768px and up) */
