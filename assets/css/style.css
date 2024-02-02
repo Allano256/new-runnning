@@ -63,21 +63,23 @@ h1 {
 /* Navbar styles with dropdown toggle*/
 
 nav {
-    position: absolute; 
+    position: absolute;
     left: 0px;
-    top: 100%; /* this tells the nav that it should start at the bottom of the parent element*/
-    padding:  0 1rem;
+    top: 100%;
+    /* this tells the nav that it should start at the bottom of the parent element*/
+    padding: 0 1rem;
     background-color: #ffffff;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-   
+
 }
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
@@ -95,12 +97,24 @@ main {
 }
 
 /*footer*/
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+         font-size: 160%;
+         padding: 5%;
+         color:#3a3a3a;
+         /*Here we make the social media icons bigger*/
 }
 
 /* Media querry: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /*Header */
     nav {
         display: block;
@@ -110,14 +124,16 @@ footer {
         padding-right: 1rem;
 
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
-    padding-left: 1rem;
+
+    #menu>li {
+        padding-left: 1rem;
     }
 
-    .nav-toggle-label{
+    .nav-toggle-label {
         display: none;
     }
 
@@ -136,7 +152,7 @@ footer {
 
 /* Larger devices (laptops and desktops, 902px and up)*/
 @media screen and (min-width: 992px) {
-    #menu  a:hover {
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
