@@ -91,7 +91,7 @@ main {
     background-color: lightblue;
     flex: 1 0 auto;
     /* so the content dont shrink wen space is too small to take up all the content*/
-
+    margin-top: 47px;
 }
 
 /*footer*/
